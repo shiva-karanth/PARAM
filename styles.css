@@ -1,168 +1,166 @@
-/*
-	font-family: 'Merriweather', serif;
-	font-family: 'Montserrat', sans-serif;
-	font-family: 'Sacramento', cursive;
-*/
-body
-{
+body {
 	color: #40514E;
 	margin: 0;
 	text-align: center;
 	font-family: 'Merriweather', serif;
+}
 
+.pvpk {
+	width: 100%;
+	max-width: 250px;
+	margin-right: 3em;
 }
-.pvpk
-{
-	 width: 15%;
-	 margin: 0 auto;
-}
-.f1
-{		
-		margin: 50px auto 0 auto;
+
+.f1 {
+	margin: 50px auto 0 auto;
 	font-family: 'Sacramento', cursive;
 }
-h1
-{	 
+
+h1 {
 	color: #66BFBF;
-	font-size: 5.625rem;/*rem dont care inheritence*/
+	font-size: 5.625rem;
 }
-h2
-{
+
+h2 {
 	font-weight: normal;
 	color: #66BFBF;
 	font-size: 2.5rem;
 	font-family: 'Montserrat', sans-serif;
-	padding-bottom: ;
 }
-h3
-{
-	text-align: left;
+
+h3 {
 	color: #11999E;
-	 font-family: 'Montserrat', sans-serif;
+	font-family: 'Montserrat', sans-serif;
 }
-p
-{
+
+p {
 	line-height: 2;
 	text-align: left;
 }
-hr
-{
+
+hr {
 	border: dotted #eaf6f6 6px;
 	border-bottom: none;
 	width: 4%;
 	margin: 100px auto;
 }
-a
-{
+
+a {
 	color: #11999e;
 	font-family: 'Montserrat', sans-serif;
 	margin: 10px 20px;
 	text-decoration: none;
 }
-a:hover
-{
-	color:yellow;
+
+.skills {
+	padding: 50px 0;
+	background-color: #E4F9F5;
 }
 
-.top
-{
+a:hover {
+	color: yellow;
+}
+
+.top {
 	background: #E4F9F5;
 	position: relative;
 	padding-top: 100px;
 }
-.mid
-{
-margin: 100px 0;
+
+.mid {
+	margin: 100px 0;
 }
-.bot
-{
+
+.bot {
 	background-color: #66BFBF;
 	padding: 50px 0 20px;
 }
-.bcloud
-{
+
+.bcloud {
 	position: absolute;
 	left: 250px;
 	bottom: 300px;
 }
-.tcloud
-{	
+
+.tcloud {
 	position: absolute;
 	right: 300px;
 	top: 40px;
 }
-.skillrow
-{
+
+.skillrow {
 	text-align: left;
-	margin:100px auto 100px auto;
-	width: 50% ;
+	margin: 100px auto 100px auto;
+	width: 50%;
 }
-.adjust1
-{
+
+.adjust1 {
 	margin-right: 30px;
-	float:left;
+	float: left;
 	width: 25%;
 }
-.adjust2
-{
+
+.adjust2 {
 	margin-left: 30px;
-	float:right;
+	float: right;
 	width: 25%;
 }
-.cent
-{
-	text-align: center;
-}
-/*
-.left
-{
-	clear: left;	/*clear is anti float*/
-/*}
-/*
-.right
-{
-	clear: right;	/*clear is anti float*/
-/*}
-*/
-.message
-{
+
+.message {
 	width: 40%;
 	margin: 40px auto 60px;
 }
-.message
-{
+
+.message {
 	width: 40%;
 	margin: 40px auto 60px;
 }
+
 .btn {
-  background: #11CDD4;
-  background-image: -webkit-linear-gradient(top, #11CDD4, #11999E);
-  background-image: -moz-linear-gradient(top, #11CDD4, #11999E);
-  background-image: -ms-linear-gradient(top, #11CDD4, #11999E);
-  background-image: -o-linear-gradient(top, #11CDD4, #11999E);
-  background-image: linear-gradient(to bottom, #11CDD4, #11999E);
-  -webkit-border-radius: 8;
-  -moz-border-radius: 8;
-  border-radius: 8px;
-  color: #ffffff;
-  font-family: 'Montserrat', sans-serif;
-  font-size: 20px;
-  padding: 10px 20px 10px 20px;
-  text-decoration: none;
+	background: #11CDD4;
+	background-image: -webkit-linear-gradient(top, #11CDD4, #11999E);
+	background-image: -moz-linear-gradient(top, #11CDD4, #11999E);
+	background-image: -ms-linear-gradient(top, #11CDD4, #11999E);
+	background-image: -o-linear-gradient(top, #11CDD4, #11999E);
+	background-image: linear-gradient(to bottom, #11CDD4, #11999E);
+	-webkit-border-radius: 8;
+	-moz-border-radius: 8;
+	border-radius: 8px;
+	color: #ffffff;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 20px;
+	padding: 10px 20px 10px 20px;
+	text-decoration: none;
 }
 
 .btn:hover {
-  background: #30E3CB;
-  background-image: -webkit-linear-gradient(top, #30E3CB, #2BC4AD);
-  background-image: -moz-linear-gradient(top, #30E3CB, #2BC4AD);
-  background-image: -ms-linear-gradient(top, #30E3CB, #2BC4AD);
-  background-image: -o-linear-gradient(top, #30E3CB, #2BC4AD);
-  background-image: linear-gradient(to bottom, #30E3CB, #2BC4AD);
-  text-decoration: none;
+	background: #30E3CB;
+	background-image: -webkit-linear-gradient(top, #30E3CB, #2BC4AD);
+	background-image: -moz-linear-gradient(top, #30E3CB, #2BC4AD);
+	background-image: -ms-linear-gradient(top, #30E3CB, #2BC4AD);
+	background-image: -o-linear-gradient(top, #30E3CB, #2BC4AD);
+	background-image: linear-gradient(to bottom, #30E3CB, #2BC4AD);
+	text-decoration: none;
 }
-.copy
-{ 
+
+.copy {
 	padding: 20px 0;
 	color: #EAF6F6;
 	font-size: 0.75rem;
+	text-align: center;
+}
+
+.profile {
+	display: flex;
+	margin: 0 50px;
+	justify-content: center;
+	align-items: center;
+}
+
+.footer-link {
+	color: white;
+}
+
+.hello {
+	text-align: left;
 }
